@@ -1,0 +1,44 @@
+body{
+        background-color: lightblue;
+}
+
+.KobeImg {
+    height: 50px;
+    width: 50px;
+}
+
+#MemeContainer {
+    position: relative;
+}
+
+#KobeMeme {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#MemeText {
+    Left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px purple;
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#FloatedBasketball {
+    float: right;
+    background: #73ad21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#BasketballImg {
+    width: 150px;
+}
